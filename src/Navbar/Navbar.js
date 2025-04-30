@@ -4,6 +4,7 @@ export function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
             <div className="container-fluid">
+                <img className="img-profile" src="https://i.pinimg.com/236x/75/ce/ba/75ceba6ebc1d0d412249d644945616da.jpg" width={50} height={50}/> 
                 <Link className="navbar-brand" to="/home">
                     <h1>Michi Mocha</h1>
                 </Link>
